@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zildjon's Personal Info</title>
+
+<!-- AOS ANIMATION -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+<style>
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#0f172a;
+    color:white;
+}
+
+/* HERO */
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:#1e293b;
+}
+
+.hero img{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #38bdf8;
+}
+
+.hero h1{
+    margin-top:15px;
+    font-size:2.5rem;
+}
+
+.hero p{
+    color:#cbd5e1;
+}
+
+/* SECTIONS */
+section{
+    max-width:900px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:20px;
+    margin:20px 0;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+/* SOCIAL BUTTONS */
+.socials a{
+    display:block;
+    margin:10px 0;
+    padding:12px;
+    background:#334155;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    transition:.3s;
+}
+
+.socials a:hover{
+    background:#475569;
+}
+
+/* QUOTES */
+blockquote{
+    background:#334155;
+    padding:15px;
+    border-left:5px solid #38bdf8;
+    border-radius:10px;
+    font-style:italic;
+}
+
+/* GAMES */
+.games{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.game{
+    background:#334155;
+    padding:10px 15px;
+    border-radius:10px;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:30px;
+    color:#94a3b8;
+    letter-spacing:2px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero" data-aos="fade-down">
+    <img src="profile.jpg" alt="Profile Picture">
+    <h1>Zildjon Dwayne A. Lopez</h1>
+    <p>Call me Zild • Gamer • Musician • Athlete • Dinosaur Fan 🦖</p>
+</div>
+
+<!-- ABOUT -->
+<section data-aos="fade-up">
+    <div class="card">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am Zildjon Dwayne A. Lopez but you can call me Zild.
+            My hobbies are playing games, musical instruments such as guitar and drums.
+            I also play sports like Chess and Basketball.
+            My favorite animals are Cats, Dogs, and Dinosaurs.
+        </p>
+    </div>
+</section>
+
+<!-- HOBBIES -->
+<section data-aos="fade-up">
+    <div class="card">
+        <h2>Hobbies & Interests</h2>
+        <ul>
+            <li>Gaming</li>
+            <li>Guitar & Drums</li>
+            <li>Chess</li>
+            <li>Basketball</li>
+        </ul>
+    </div>
+</section>
+
+<!-- GAMES -->
+<section data-aos="fade-up">
+    <div class="card">
+        <h2>Games I Play</h2>
+        <div class="games">
+            <div class="game">Mobile Legends</div>
+            <div class="game">Valorant</div>
+            <div class="game">Roblox</div>
+            <div class="game">CODM Garena</div>
+            <div class="game">Minecraft</div>
+        </div>
+    </div>
+</section>
+
+<!-- MUSIC -->
+<section data-aos="fade-left">
+    <div class="card">
+    <h2>🎵 Music Player</h2>
+
+    <audio controls>
+        <source src="music.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+    </audio>
+
+    <p>Click play to listen 🎧</p>
+</div>
+
+<!-- QUOTES -->
+<section data-aos="fade-right">
+    <div class="card">
+        <h2>💭 Favorite Quotes</h2>
+
+        <blockquote>
+            “Don’t demand that things happen as you wish, but wish that they happen as they do happen, and you will go on well.”
+        </blockquote>
+
+        <br>
+
+        <blockquote>
+            “Don’t be prideful with any excellence that is not your own.
+”
+        </blockquote>
+    </div>
+</section>
+
+<!-- SOCIALS -->
+<section data-aos="fade-up">
+    <div class="card">
+        <h2>🌐 Social Media</h2>
+
+        <div class="socials">
+            <a href="https://www.instagram.com/ziijpopesszu?igsh=MTBtM3pib3VqbWhtYw==" target="_blank">
+                Instagram
+            </a>
+
+            <a href="https://discord.gg/7QC96CCQ" target="_blank">
+                Discord
+            </a>
+
+            <a href="https://t.me/zjpopesz" target="_blank">
+                Telegram
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section data-aos="fade-up">
+    <div class="card">
+        <h2>📩 Contact</h2>
+        <p>Email: zldjpopes112@gmail.com</p>
+        <p>WhatsApp: +63 945 799 6138</p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    zildjon lopez
+</footer>
+
+<!-- AOS SCRIPT -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+
+</body>
+</html>
